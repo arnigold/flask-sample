@@ -6,4 +6,3 @@ RUN pip3 install flask
 RUN apt-get install -y git
 RUN git clone https://github.com/arnigold/flask-sample.git
 WORKDIR /flask-sample
-CMD python3 hello.py &
